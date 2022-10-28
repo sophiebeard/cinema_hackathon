@@ -73,6 +73,10 @@ nav a:hover::before {
     width: 100%;
 }
 
+.col-6 col-md-4 {
+    background-color: rgb(10, 5, 255);
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
