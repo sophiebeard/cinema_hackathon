@@ -14,19 +14,82 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <title>DF Cinemas</title>
 </head>
+<header>
+    <div class="navbar">
+
+        <img src="https://digitalfutures.com/wp-content/uploads/2021/02/yoast-logo.png" alt="logo" width=200px,
+            class="logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="whatsOn.html">What's On</a></li>
+                <li><a href="signUp.html">Sign-Up</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 <body>
 
-    <div class="navbar">
-        <a class="active" href="#home">Home</a>
-        <a href="#whatson">What's On</a>
-        <a href="#signup">Sign Up</a>
-    </div>
+    <main>
 
-    <div class="flex-container">
-        <div class="flex-item-left">1</div>
-        <div class="flex-item-right">2</div>
-    </div>
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div>
+                        <img src="images/cinema1.jpg" class="rounded" alt="cinema1" width="550" height="300">
+                    </div>
+                    <div>
+                        <img src="images/cinema2.jpg" class="rounded" alt="cinema1" width="550" height="300">
+                    </div>
+                    <div>
+                        <img src="images/cinema3.jpg" class="rounded" alt="cinema1" width="550" height="300">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <form>
+                            <div class="form-group row">
+                                <label for="title" class="col-sm-2 col-form-label">Title</label>
+                                <div class="col-sm-10">
+                                    <input type="dropdown" class="form-control" id="title" placeholder="title">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="firstname" class="col-sm-2 col-form-label">First Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="firstname"
+                                        placeholder="First Name placeholder">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="lastname" class="col-sm-2 col-form-label">Last Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="lastname"
+                                        placeholder="last Name placeholder">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-primary">Sign Me Up</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+    </main>
 
     <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
