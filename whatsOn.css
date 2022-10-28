@@ -9,5 +9,19 @@ main {
 .row .col-2 {
     border: 1px solid #969696;
     margin: none;
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.row .col-4,
+.col-6 {
+    border: 1px solid #969696
+}
+
+.row .col-10 {
+    margin-left: -15px;
+}
+
+.row .offset-md-1 {
+    margin-left: 60px;
+    border: 1px solid #969696
 }
