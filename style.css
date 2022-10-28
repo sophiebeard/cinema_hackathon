@@ -74,7 +74,7 @@ nav a:hover::before {
 }
 
 .col-6 col-md-4 {
-    background-color: rgb(10, 5, 255);
+    background-color: rgb(255, 5, 22);
 }
 
 .flex-container {
@@ -105,25 +105,35 @@ nav a:hover::before {
 
 main {
     margin: 5em;
+    color: rgb(13, 158, 236);
+    text-align: center;
+    text-align: justify;
+    text-align-last: center;
+    text-shadow: 1px 1px 0px blue;
+    font-family: monospace;
 }
 
 .row {
     margin: 20px;
+
 }
 
 .row .col-2 {
     border: 1px solid #969696;
     margin: none;
     margin-left: 30px;
+    background-color: lightgrey;
 }
 
 .row .col-4,
 .col-6 {
-    border: 1px solid #969696
+    border: 1px solid #969696;
+    background-color: lightgrey;
 }
 
 .row .col-10 {
     margin-left: -15px;
+    background-color: lightgrey;
 }
 
 .row .offset-md-1 {
